@@ -1,0 +1,51 @@
+{
+  "name": "super-number",
+  "version": "1.0.0",
+  "description": "extra Integers and Numbers methods",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run lint && jest test/",
+    "test:ci": "npm t",
+    "test:unit": "jest test/unit",
+    "test:integration": "jest test/integration",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/segandiaye/super-number.git"
+  },
+  "keywords": [
+    "super",
+    "integer",
+    "superInteger",
+    "number",
+    "supernumber",
+    "prime",
+    "primenumber",
+    "positive",
+    "positivenumber",
+    "positiveinteger",
+    "negative",
+    "negativenumber",
+    "negativeinteger",
+    "nearest",
+    "nearestnumber",
+    "nearestinteger"
+  ],
+  "author": "Sega NDIAYE «segadembandiaye2007@gmail.com»",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/segandiaye/super-number/issues"
+  },
+  "homepage": "https://github.com/segandiaye/super-number#readme",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-src": "^1.0.0",
+    "jest": "^27.0.3"
+  }
+}
