@@ -37,10 +37,10 @@ describe('Odd numbers', () => {
     });
 
     test('check if is a odd number', () => {
-        expect(ints().isOddNumber(3)).toEqual(true);
-        expect(ints().isOddNumber(2)).toEqual(false);
-        expect(ints().isOddNumber(-3)).toEqual(true);
-        expect(ints().isOddNumber(-2)).toEqual(false);
+        expect(ints(3).isOddNumber()).toEqual(true);
+        expect(ints(2).isOddNumber()).toEqual(false);
+        expect(ints(-3).isOddNumber()).toEqual(true);
+        expect(ints(-2).isOddNumber()).toEqual(false);
     });
 
 });

@@ -38,10 +38,10 @@ describe('Even numbers', () => {
     });
 
     test('check if is a even number', () => {
-        expect(ints().isEvenNumber(2)).toEqual(true);
-        expect(ints().isEvenNumber(3)).toEqual(false);
-        expect(ints().isEvenNumber(-2)).toEqual(true);
-        expect(ints().isEvenNumber(-3)).toEqual(false);
+        expect(ints(2).isEvenNumber()).toEqual(true);
+        expect(ints(3).isEvenNumber()).toEqual(false);
+        expect(ints(-2).isEvenNumber()).toEqual(true);
+        expect(ints(-3).isEvenNumber()).toEqual(false);
     });
 
 });
