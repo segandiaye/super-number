@@ -39,10 +39,10 @@ Ints([0, -2, -4, 7, 9, 10, 13, 20]).getEvenNumbersGreaterThan(4); // expected ou
 Ints([0, -2, -4, 7, 9, 10, 13, 20]).getEvenNumbersGreaterThan(-4); // expected output: [0, -2, 10, 20]
 Ints([0, -2, -4, 4, 7, 9, 10, 13, 20]).getEvenNumbersGreaterOrEqualThan(4); // expected output: [4, 10, 20]
 Ints([0, -2, -4, 7, 9, 10, 13, 20]).getEvenNumbersGreaterOrEqualThan(-4); // expected output: [0, -2, -4, 10, 20]
-Ints().isEvenNumber(2); // expected output: true
-Ints().isEvenNumber(3); // expected output: false
-Ints().isEvenNumber(-2); // expected output: true
-Ints().isEvenNumber(-3); // expected output: false
+Ints(2).isEvenNumber(); // expected output: true
+Ints(3).isEvenNumber(); // expected output: false
+Ints(-2).isEvenNumber(); // expected output: true
+Ints(-3).isEvenNumber(); // expected output: false
 
 // Odd numbers
 Ints(11).getLessOddNumbers(); // expected output: [1, 3, 5, 7, 9]
@@ -56,10 +56,10 @@ Ints([0, 1, 2, -3, 4, 6, 7, 11]).getOddNumbersGreaterThan(3); // expected output
 Ints([0, 1, -2, -3, 4, 6, 7, 11]).getOddNumbersGreaterThan(-3); // expected output: [1, 7, 11]
 Ints([0, 1, -2, 3, 4, 6, 7, 11]).getOddNumbersGreaterOrEqualThan(3); // expected output: [3, 7, 11]
 Ints([0, 1, -2, -3, -5, 6, 7, 11]).getOddNumbersGreaterOrEqualThan(-3); // expected output: [1, -3, 7, 11]
-Ints().isOddNumber(3); // expected output: true
-Ints().isOddNumber(2); // expected output: false
-Ints().isOddNumber(-3); // expected output: true
-Ints().isOddNumber(-2); // expected output: false
+Ints(3).isOddNumber(); // expected output: true
+Ints(2).isOddNumber(); // expected output: false
+Ints(-3).isOddNumber(); // expected output: true
+Ints(-2).isOddNumber(); // expected output: false
 
 // Some others useful operations
 Ints([-5, -2, 0, 1, 5]).getPositivesNumbers(); // expected output: [1, 5]
