@@ -15,6 +15,7 @@ describe('Interoperability', () => {
         expect(int).toHaveProperty('getEvenNumbersLessOrEqualThan');
         expect(int).toHaveProperty('getEvenNumbersGreaterThan');
         expect(int).toHaveProperty('getEvenNumbersGreaterOrEqualThan');
+        expect(int).toHaveProperty('isEvenNumber');
 
         // Odd numbers
         expect(int).toHaveProperty('getLessOddNumbers');
@@ -24,6 +25,7 @@ describe('Interoperability', () => {
         expect(int).toHaveProperty('getOddNumbersLessOrEqualThan');
         expect(int).toHaveProperty('getOddNumbersGreaterThan');
         expect(int).toHaveProperty('getOddNumbersGreaterOrEqualThan');
+        expect(int).toHaveProperty('isOddNumber');
 
         // Useful operations
         expect(int).toHaveProperty('getPositivesNumbers');

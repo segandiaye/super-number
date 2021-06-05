@@ -36,4 +36,11 @@ describe('Odd numbers', () => {
         expect(ints([0, 1, -2, -3, -5, 6, 7, 11]).getOddNumbersGreaterOrEqualThan(-3)).toEqual([1, -3, 7, 11]);
     });
 
+    test('check if is a odd number', () => {
+        expect(ints().isOddNumber(3)).toEqual(true);
+        expect(ints().isOddNumber(2)).toEqual(false);
+        expect(ints().isOddNumber(-3)).toEqual(true);
+        expect(ints().isOddNumber(-2)).toEqual(false);
+    });
+
 });

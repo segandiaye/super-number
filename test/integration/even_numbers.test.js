@@ -37,4 +37,11 @@ describe('Even numbers', () => {
         expect(ints([0, -2, -4, 7, 9, 10, 13, 20]).getEvenNumbersGreaterOrEqualThan(-4)).toEqual([0, -2, -4, 10, 20]);
     });
 
+    test('check if is a even number', () => {
+        expect(ints().isEvenNumber(2)).toEqual(true);
+        expect(ints().isEvenNumber(3)).toEqual(false);
+        expect(ints().isEvenNumber(-2)).toEqual(true);
+        expect(ints().isEvenNumber(-3)).toEqual(false);
+    });
+
 });
