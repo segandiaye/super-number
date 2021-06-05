@@ -3,7 +3,7 @@
 [![NPM version](http://img.shields.io/npm/v/super-number.svg)](https://www.npmjs.org/package/super-number)
 [![Build Status](https://travis-ci.org/segandiaye/super-number.svg?branch=main)](https://travis-ci.org/segandiaye/super-number)
 
-This is a tool that provides extra Integer or only Number methods. It allows to perform some actions more easily with `Intseger or only Number` types which makes it simpler, more flexible, more practical and less effort.
+This is a tool that provides extra Integer or Number methods. It allows to perform some actions more easily with `Intseger or only Number` types which makes it simpler, more flexible, more practical and less effort.
 
 ## Installation
 
