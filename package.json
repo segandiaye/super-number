@@ -9,9 +9,10 @@
   },
   "scripts": {
     "test": "npm run lint && jest test/",
-    "test:ci": "npm t",
+    "test:ci": "npm run lint && npm run test:unit && npm run test:integration && npm run test:coverage",
     "test:unit": "jest test/unit",
     "test:integration": "jest test/integration",
+    "test:coverage": "jest --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint --fix ."
   },

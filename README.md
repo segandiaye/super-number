@@ -1,7 +1,7 @@
 # super-number
 
 [![NPM version](http://img.shields.io/npm/v/super-number.svg)](https://www.npmjs.org/package/super-number)
-[![Build Status](https://travis-ci.org/segandiaye/super-number.svg?branch=main)](https://travis-ci.org/segandiaye/super-number)
+[![codecov](https://codecov.io/gh/segandiaye/super-number/branch/feat/build_badge/graph/badge.svg)](https://codecov.io/gh/segandiaye/super-number)
 
 This is a tool that provides extra Integer or Number methods. It allows to perform some actions more easily with `Intseger or only Number` types which makes it simpler, more flexible, more practical and less effort.
 
